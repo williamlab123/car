@@ -1,0 +1,8 @@
+{
+    "cars":
+    {
+        "potencia": 250,
+        "marca": "nissan",
+        "modelo": "gtr_skyline"
+    }
+}
