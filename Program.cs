@@ -1,4 +1,5 @@
-﻿
+﻿using MySql.Data.MySqlClient;
+
 namespace CarDataBase
 {
     class Program
@@ -7,6 +8,10 @@ namespace CarDataBase
         {
             DatabaseHelper.ConnectToDatabase();
             Console.ReadKey();
+            DatabaseHelper.addCar();
+            System.Console.WriteLine("");
+
         }
     }
+  
 }
